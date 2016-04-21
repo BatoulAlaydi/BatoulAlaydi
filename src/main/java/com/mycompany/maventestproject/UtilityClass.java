@@ -15,10 +15,11 @@ public class UtilityClass
 {
 
     private UtilityClass () { }
-
+    
 
     public static String concatWords(String... words) 
     {
+     int x = 0;
         StringBuilder buf = new StringBuilder();
         for (String word : words) 
 {
